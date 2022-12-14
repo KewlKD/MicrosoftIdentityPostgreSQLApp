@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDUSubApp2", "UDUSubApp2.csproj", "{81DACD9D-0FF6-48C7-A3DF-FF151E860815}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81DACD9D-0FF6-48C7-A3DF-FF151E860815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DACD9D-0FF6-48C7-A3DF-FF151E860815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DACD9D-0FF6-48C7-A3DF-FF151E860815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DACD9D-0FF6-48C7-A3DF-FF151E860815}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46F3FE25-C59C-4953-AAD1-62D467958ADE}
+	EndGlobalSection
+EndGlobal

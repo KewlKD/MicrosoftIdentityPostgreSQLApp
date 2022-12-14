@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Motion Stats";
+    ViewData["ActivePage"] = ManageNavPages.MotionStats;
+
+    <h3>Motion Stats</h3>
+    var date = DateTime.Now.ToShortDateString();
+    string message = "See how much you have been moving";
+    <text>Today's date is:</text> @date
+    <br />
+    @message
+
+}
+
+

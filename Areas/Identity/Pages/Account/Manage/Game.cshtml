@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Games";
+    ViewData["ActivePage"] = ManageNavPages.Game;
+
+    <h3>Games</h3>
+    var date = DateTime.Now.ToShortDateString();
+    string message = "Time to play";
+    <text>Today's date is:</text> @date
+    <br />
+    @message
+
+}
+
+
