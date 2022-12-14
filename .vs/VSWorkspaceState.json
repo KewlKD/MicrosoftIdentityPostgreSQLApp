@@ -3,14 +3,14 @@
     "",
     "\\Areas",
     "\\Areas\\Identity",
-    "\\Areas\\Identity\\Pages",
-    "\\Areas\\Identity\\Pages\\Account",
-    "\\Microsoft",
-    "\\Microsoft\\Extensions",
+    "\\Areas\\Identity\\Data",
+    "\\Controllers",
+    "\\Migrations",
+    "\\Models",
     "\\public",
     "\\Views",
     "\\Views\\Shared"
   ],
-  "SelectedNode": "\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+  "SelectedNode": "\\Areas\\Identity\\Data\\AppDBContext.cs",
   "PreviewInSolutionExplorer": false
 }

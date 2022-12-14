@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace UDUSubApp2.Areas.Identity.Data;
+namespace MicrosoftIdentityPostgreSQLApp.Areas.Identity.Data;
 
 public class AppDBContext : IdentityDbContext<IdentityUser>
 {

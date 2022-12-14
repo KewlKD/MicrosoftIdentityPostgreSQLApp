@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace UDUSubApp2.Areas.Identity.Data
+namespace MicrosoftIdentityPostgreSQLApp.Areas.Identity.Data
 {
     public class AppUser : IdentityUser
     {
