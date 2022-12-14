@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Stripe.Checkout;
 using System.Diagnostics;
-using UDUSubApp2.Areas.Identity.Data;
-using UDUSubApp2.Models;
+using MicrosoftIdentityPostgreSQLApp.Areas.Identity.Data;
+using MicrosoftIdentityPostgreSQLApp.Models;
 using Microsoft.Extensions.Options;
 using Stripe;
 using System;
@@ -14,7 +14,7 @@ using IdentityServer4.Services;
 using ServiceStack.Text;
 using Microsoft.AspNetCore.Authorization;
 
-namespace UDUSubApp2.Controllers
+namespace MicrosoftIdentityPostgreSQLApp.Controllers
 {
      
     public class HomeController : Controller
@@ -40,18 +40,8 @@ namespace UDUSubApp2.Controllers
             return View();
         }
 
-        public IActionResult GoPremium()
-        {
-
-            return View();
-        }
-
-
-
-        public IActionResult UDUNews()
-        {
-            return View();
-        }
+       
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

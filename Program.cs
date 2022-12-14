@@ -1,13 +1,13 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using UDUSubApp2.Areas.Identity.Data;
+using MicrosoftIdentityPostgreSQLApp.Areas.Identity.Data;
 using Npgsql;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using UDUSubApp2;
+using MicrosoftIdentityPostgreSQLApp;
 using Microsoft.AspNetCore.Hosting;
 using System.Configuration;
 using Microsoft.AspNetCore;
-using UDUSubApp2.Controllers;
+using MicrosoftIdentityPostgreSQLApp.Controllers;
 
 
 
