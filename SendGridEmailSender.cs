@@ -19,7 +19,7 @@ namespace UDUSubApp2
 
             public Task SendEmailAsync(string email, string subject, string htmlMessage)
             {
-                var sendGridKey = @"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";
+                var sendGridKey = @"";
                 return Execute(sendGridKey, subject, htmlMessage, email);
             }
 
@@ -28,7 +28,7 @@ namespace UDUSubApp2
                 var client = new SendGridClient(apiKey);
                 var msg = new SendGridMessage()
                 {
-                    From = new EmailAddress("kyle@udu.dk", "UDU"),
+                    From = new EmailAddress("kyle@cp.dk", "Company"),
                     Subject = subject,
                     PlainTextContent = message,
                     HtmlContent = message
